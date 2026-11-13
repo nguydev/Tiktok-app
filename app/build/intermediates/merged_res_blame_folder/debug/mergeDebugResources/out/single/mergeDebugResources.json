@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_bg_edit_text.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/bg_edit_text.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_home.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_profile.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_bg_button_primary.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_notifications.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_activity_splash.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_item_story.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_verified.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_verified.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_heart_filled.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_heart_filled.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_comment.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_comment.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_activity_post_details.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/activity_post_details.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_add_post.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_add_post.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_item_post.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_fragment_profile.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_item_comment.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/item_comment.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_fragment_explore.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_fragment_feed.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_heart_outline.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_heart_outline.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.socialhub.app-main-38:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_fragment_notifications.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_item_notification.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_share.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_activity_register.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/layout_activity_create_post.xml.flat",
+        "source": "com.socialhub.app-main-38:/layout/activity_create_post.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_bg_story_ring.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/bg_story_ring.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_explore.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_explore.xml"
+    },
+    {
+        "merged": "com.socialhub.app-debug-36:/drawable_ic_bookmark.xml.flat",
+        "source": "com.socialhub.app-main-38:/drawable/ic_bookmark.xml"
+    }
+]

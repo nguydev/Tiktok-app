@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/item_notification.xml",
+        "source": "com.socialhub.app-main-38:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.socialhub.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/fragment_feed.xml",
+        "source": "com.socialhub.app-main-38:/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/activity_post_details.xml",
+        "source": "com.socialhub.app-main-38:/layout/activity_post_details.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/item_story.xml",
+        "source": "com.socialhub.app-main-38:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/activity_create_post.xml",
+        "source": "com.socialhub.app-main-38:/layout/activity_create_post.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.socialhub.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/item_comment.xml",
+        "source": "com.socialhub.app-main-38:/layout/item_comment.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/activity_register.xml",
+        "source": "com.socialhub.app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/activity_splash.xml",
+        "source": "com.socialhub.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/fragment_profile.xml",
+        "source": "com.socialhub.app-main-38:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/fragment_explore.xml",
+        "source": "com.socialhub.app-main-38:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/item_post.xml",
+        "source": "com.socialhub.app-main-38:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.socialhub.app-mergeDebugResources-35:/layout/fragment_notifications.xml",
+        "source": "com.socialhub.app-main-38:/layout/fragment_notifications.xml"
+    }
+]

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/spacing_sm"
+    android:layout_marginTop="@dimen/spacing_xs"
+    android:layout_marginEnd="@dimen/spacing_sm"
+    android:layout_marginBottom="@dimen/spacing_sm"
+    app:cardBackgroundColor="?attr/colorSurface"
+    app:cardCornerRadius="@dimen/radius_md"
+    app:cardElevation="1dp"
+    app:strokeColor="@color/card_border_light"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header: Author Avatar, Name, Verified badge, Timestamp -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_md">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivAuthorAvatar"
+                android:layout_width="@dimen/avatar_md"
+                android:layout_height="@dimen/avatar_md"
+                android:src="@drawable/ic_profile" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvAuthorName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-bold"
+                        android:text="Author Name"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textSize="@dimen/text_base" />
+
+                    <ImageView
+                        android:id="@+id/ivVerifiedBadge"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_marginStart="@dimen/spacing_xs"
+                        android:contentDescription="Verified"
+                        android:src="@drawable/ic_verified"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvPostTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2h ago"
+                    android:textColor="@color/text_secondary_light"
+                    android:textSize="@dimen/text_xs" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Post Content Text -->
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingStart="@dimen/spacing_md"
+            android:paddingEnd="@dimen/spacing_md"
+            android:paddingBottom="@dimen/spacing_sm"
+            android:text="This is a sample post caption with hashtags #android #development"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="@dimen/text_base" />
+
+        <!-- Optional Attached Image Media -->
+        <ImageView
+            android:id="@+id/ivPostMedia"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Post Media"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <!-- Footer Actions: Like, Comment, Share, Bookmark -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_sm">
+
+            <!-- Like Button & Counter -->
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/like"
+                android:src="@drawable/ic_heart_outline" />
+
+            <TextView
+                android:id="@+id/tvLikesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_xs"
+                android:text="0"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="@dimen/text_sm" />
+
+            <!-- Comment Button & Counter -->
+            <ImageButton
+                android:id="@+id/btnComment"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="@dimen/spacing_md"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/comments"
+                android:src="@drawable/ic_comment" />
+
+            <TextView
+                android:id="@+id/tvCommentsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_xs"
+                android:text="0"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="@dimen/text_sm" />
+
+            <!-- Share Button -->
+            <ImageButton
+                android:id="@+id/btnShare"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="@dimen/spacing_md"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/share"
+                android:src="@drawable/ic_share" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <!-- Bookmark Button -->
+            <ImageButton
+                android:id="@+id/btnBookmark"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/bookmark"
+                android:src="@drawable/ic_bookmark" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

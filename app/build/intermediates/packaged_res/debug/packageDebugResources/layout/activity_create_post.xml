@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorSurface"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="@string/create_post">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPublishPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/spacing_md"
+            android:background="@drawable/bg_button_primary"
+            android:text="@string/post_action"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/radius_pill" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Author Avatar & Input -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivAuthorAvatar"
+        android:layout_width="@dimen/avatar_md"
+        android:layout_height="@dimen/avatar_md"
+        android:layout_margin="@dimen/spacing_md"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/tvAuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_sm"
+        android:fontFamily="sans-serif-bold"
+        android:text="User"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAuthorAvatar"
+        app:layout_constraintStart_toEndOf="@+id/ivAuthorAvatar"
+        app:layout_constraintTop_toTopOf="@+id/ivAuthorAvatar" />
+
+    <EditText
+        android:id="@+id/etPostContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/spacing_md"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/post_hint"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="@dimen/text_base"
+        app:layout_constraintBottom_toTopOf="@+id/ivAttachedPreview"
+        app:layout_constraintTop_toBottomOf="@+id/ivAuthorAvatar" />
+
+    <ImageView
+        android:id="@+id/ivAttachedPreview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="@dimen/spacing_md"
+        android:contentDescription="Attached Preview"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddMedia" />
+
+    <!-- Action to attach image -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddMedia"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_md"
+        android:text="@string/add_photos"
+        app:icon="@drawable/ic_add_post"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

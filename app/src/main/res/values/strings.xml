@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SocialHub</string>
+    <string name="tagline">Connect, share and explore moments</string>
+
+    <!-- Nav tabs -->
+    <string name="nav_feed">Feed</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_notifications">Alerts</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to your SocialHub account</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Create Account</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email Address</string>
+    <string name="username">Username</string>
+
+    <!-- Post & Feed -->
+    <string name="create_post">Create Post</string>
+    <string name="post_hint">What\'s on your mind?</string>
+    <string name="post_action">Post</string>
+    <string name="add_photos">Add Photos/Videos</string>
+    <string name="stories">Stories</string>
+    <string name="comments">Comments</string>
+    <string name="write_comment">Add a comment...</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="bookmark">Save</string>
+
+    <!-- Profile -->
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Following</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="bio">Bio</string>
+    <string name="save">Save</string>
+    <string name="logout">Log Out</string>
+
+    <!-- General -->
+    <string name="loading">Loading...</string>
+    <string name="retry">Retry</string>
+    <string name="no_data_available">No posts yet</string>
+    <string name="error_occurred">Something went wrong. Please try again.</string>
+</resources>
